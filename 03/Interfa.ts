@@ -11,7 +11,7 @@ module Interfa{
         age?: number;
         kids: number;
         calcPets: () => number;
-        makeYouger: (years: number)  => void;
+        makeYounger: (years: number)  => void;
         greet: (msg: string)  => string;
     }
 
@@ -22,7 +22,7 @@ module Interfa{
         calcPets: function () {
             return this.kid*2;
         },
-        makeYouger: function (years: number) {
+        makeYounger: function (years: number) {
             this.age -=years;
         },
         greet: function (msg: string) {
