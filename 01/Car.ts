@@ -18,7 +18,7 @@ class Car{
 }
 
 window.onload = function () {
-    var car = new Car('V8');
+    let car = new Car('V8');
     car.start();
     car.stop();
-}
+};
